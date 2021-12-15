@@ -121,8 +121,13 @@ h3 {
 
 .coin {
   border: 2px solid black;
-  max-width: 2500px;
+  max-width: 1000px;
   position: relative;
   left: 10%;
   margin: 50px auto;
+}
+
+#heads-img {
+  width: 900px;
+  height: 600px;
 }
