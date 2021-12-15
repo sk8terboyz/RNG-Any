@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random Number Generator</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <!-- Import Vue.js -->
+    <script src=https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+  </head>
+  <body>
+      <div id="app">
+        <div class="rng">
+          <h1>Random Number Generator</h1>
+          <p>Negative Numbers Not Allowed</p>
+            <form id="form">
+              <div id="high">
+                <h3 class="higher-number">Higher Number:</h3>
+                <input type="number" placeholder="Higher-Bound" class="higher">
+              </div>
+              <div id="low">
+                <h3 class="lower-number">Lower Number:</h3>
+                <input type="number" placeholder="Lower-Bound" class="lower">
+              </div>
+            </form>
+            <button class="generate">Generate</button>
+            <div id="output">
+              <h2 class="random-num">[]</h2>
+            </div>
+        </div>
+        <div class="container">
+          <div class="coin-flip">
+            <h1 class="CF">Coin Flip</h1>
+            <div class="stats">
+              <p id="heads-count">Heads: 0</p>
+              <p id="tails-count">Tails: 0</p>
+            </div>
+            <button class="flipBtn">Flip the coin</button>
+            <div class="coin">
+              <div class="heads">
+                <img src="./assets/images/CoinHeads.png" id="heads-img">
+              </div>
+              <div class="tails">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Import App Logic -->
+      <script src="./main.js"></script>
+  </body>
+</html>

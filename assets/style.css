@@ -1,0 +1,128 @@
+#app {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.rng {
+  display: inherit;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.CF {
+  display: inherit;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50pt;
+  border-bottom: 10px dashed grey;
+  margin-bottom: 0.5%;
+  text-align: center;
+  display: flexbox;
+}
+
+h3 {
+  font-size: 16pt;
+  margin-left: 1.5em;
+}
+
+#form {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* .high {
+  border-style: outset;
+  background-color: orchid;
+  display: flex;
+}
+
+.low {
+  display: flex;
+  border-style: outset;
+} */
+
+.higher {
+  width: 200px;
+  height: 35px;
+  margin: 2em;
+  margin-top: 0%;
+  font-size: 16pt;
+}
+
+.lower {
+  width: 200px;
+  height: 35px;
+  margin: 2rem;
+  margin-top: 0%;
+  font-size: 16pt;
+}
+
+.generate {
+  text-align: center;
+  font-size: 24px;
+  margin: 4px 2px;
+  height: 50px;
+  background-color: lightgray;
+  border: 3px solid green;
+  display: inherit;
+  cursor: pointer;
+}
+
+.generate:hover {
+  background-color: green;
+  color: white;
+}
+
+.flipBtn {
+  text-align: center;
+  font-size: 24px;
+  margin: 4px 2px;
+  height: 50px;
+  width: 500px;
+  background-color: lightgray;
+  border: 3px solid blue;
+  display: inherit;
+  position: relative;
+  left: 40%;
+  cursor: pointer;
+}
+
+.flipBtn:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#output {
+  font-size: 32pt;
+  position: relative;
+  top: 5%;
+  left: 49%;
+}
+
+.stats {
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+#tails-count {
+  margin-top: 5px;
+}
+
+#heads-count {
+  margin-bottom: 5px;
+}
+
+.coin {
+  border: 2px solid black;
+  max-width: 2500px;
+  position: relative;
+  left: 10%;
+  margin: 50px auto;
+}
