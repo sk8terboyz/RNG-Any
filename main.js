@@ -3,13 +3,16 @@ const btnListener = document
   .addEventListener("click", function () {
     let h = 2;
     let l = 0;
-    h = document.querySelector(".higher").value || 2;
-    l = document.querySelector(".lower").value || 0;
+
+    h = document.querySelector(".higher").value || 2;   // base numbers if no input
+    l = document.querySelector(".lower").value || 0;    // base numbers if no input
+    
+    // Check if the higher bound is actually greater than lower bound
     if (h > l) {
       // Negative numbers
-      if (h < 0 || l < 0) {
+      if (l < 0) {
         document.querySelector(".random-num").textContent = Math.floor(
-          Math.random() * h + 1
+          Math.random() * l
         );
       } else {
         // Normal numbers
