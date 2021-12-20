@@ -8,7 +8,7 @@ This is another project I was working on when I was learning Vue, although it ap
 
 *Random Number Generator*
 
-The random number generator is very simple in how it works. It will take the minimum and maximum numbers that the user wants to generate a number from. It will not work with negative numbers though. Whenever a negative number appears, the output will automatically be 1.
+The random number generator is very simple in how it works. It will take the minimum and maximum numbers that the user wants to generate a number from. This now works with negative numbers.
 
 *Coin Flip*
 
